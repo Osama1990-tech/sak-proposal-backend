@@ -1,8 +1,6 @@
 [build]
 builder = "NIXPACKS"
-
-[build.nixpacksPlan.phases.setup]
-nixPkgs = ["nodejs_20", "libreoffice"]
+nixpacksPlan = "{\"phases\":{\"setup\":{\"nixPkgs\":[\"nodejs_20\",\"libreoffice-bin\",\"liberation_ttf\"]}}}"
 
 [deploy]
 startCommand = "npm start"
