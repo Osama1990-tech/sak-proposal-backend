@@ -1,2 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs_20", "libreoffice-bin", "liberation_ttf"]
